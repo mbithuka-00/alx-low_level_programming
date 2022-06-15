@@ -1,7 +1,8 @@
 /*
  *  * File: 4-puts.c
- *  auth-mbithuka
- */
+ *   * Auth: Brennan D Baraban <375@holbertonschool.com>
+ *    */
+
 #include <stdio.h>
 
 /**
