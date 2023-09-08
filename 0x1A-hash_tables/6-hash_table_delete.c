@@ -7,14 +7,14 @@
 void hash_table_delete(hash_table_t *ht)
 {
     hash_node_t *bucket, *aux_free;
-    unsigned long int m = 0;  // Changed 'i' to 'm'
+    unsigned long int m = 0;
 
     if (!ht)
         return;
 
-    for (m = 0; m < ht->size; m++)  // Changed 'i' to 'm'
+    for (m = 0; m < ht->size; m++)
     {
-        bucket = ht->array[m];  // Changed 'i' to 'm'
+        bucket = ht->array[m];
         while (bucket)
         {
             aux_free = bucket;
@@ -29,3 +29,4 @@ void hash_table_delete(hash_table_t *ht)
     free(ht->array);
     free(ht);
 }
+i
